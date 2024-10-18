@@ -16,8 +16,8 @@ function Home() {
       </div>
       <div className="content">
          <div className="post-container">
-          {!isEmpty(posts) && posts.map((post, index)=>(
-<Post key={index} post={post}/>
+          {!isEmpty(posts) && posts.map((post)=>(
+<Post key={post.id} post={post}/>
         ))}</div> 
         
       </div>

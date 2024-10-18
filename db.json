@@ -20,14 +20,49 @@
       "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptates non, odit, sequi sit pariatur iusto modi magni dolorem, cupiditate corrupti!Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptates non, odit, sequi sit pariatur iusto modi magni dolorem, cupiditate corrupti! Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptates non, odit, sequi sit pariatur iusto modi magni dolorem, cupiditate corrupti! Recusandae quaerat vitae fugiat mollitia blanditiis, temporibus eum! Ipsum?",
       "likes": 107,
       "id": "3"
+    },
+    {
+      "id": "ce75",
+      "author": "Denis",
+      "title": "dsqdsd",
+      "content": "dsqdqsds",
+      "likes": 0
+    },
+    {
+      "id": "cc10",
+      "author": "Denis",
+      "title": "dsdsqd",
+      "content": "dsdsqdqs",
+      "likes": 0
+    },
+    {
+      "id": "a96e",
+      "author": "Denis",
+      "title": "fgdfgfdgdfg",
+      "content": "gfdgfdgdfg",
+      "likes": 0
+    },
+    {
+      "id": "fd7b",
+      "author": "Denis",
+      "title": "fdfsdfsd",
+      "content": "fdfsdfsdf",
+      "likes": 0
+    },
+    {
+      "id": "c806",
+      "author": "Denis",
+      "title": "dsdqsdqsd",
+      "content": "fefzefezfez",
+      "likes": 0
     }
   ],
   "user": [
     {
-      "pseudo": "user42",
+      "pseudo": "Denis",
       "likes": 0,
       "age": 30,
-      "id": 1
+      "id": "1"
     }
   ]
 }

@@ -1,12 +1,20 @@
 import React, { useState } from "react";
 import Like from "./Like";
+import {isEmpty} from "../components/Utils"
 import "../style/post.scss"
+import { useSelector } from "react-redux";
 
 const Post = ({ post }) => {
   const [editToggle, setEditToggle] = useState(false);
+  const user= useSelector((state)=> state.useReducer )
+  console.log(user);
+  console.log(post);
+  
 
   return (
+    
     <div className="post">
+    {!isEmpty(user) && user.pseudo === post.author &&(
       <div className="edit-delete">
         <img
           src="./icons/edit.svg"
@@ -18,7 +26,7 @@ const Post = ({ post }) => {
           alt="delete"
         />
       </div>
-
+  )}
       <h2>{post.title}</h2>
       <img
         src="https://picsum.photos/1500/400"
